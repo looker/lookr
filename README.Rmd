@@ -14,6 +14,11 @@ knitr::opts_chunk$set(
 )
 ```
 
+# DEPRECATION WARNING
+
+This package is deprecated and may not work as an interface to Looker. 
+There currently is no R SDK for Looker, as a result you are better off calling the API directly.
+
 # LookR
 
 This is an SDK for using the Looker API with the R programming language. Our priority is to add support for the endpoints that are most useful to data scientists and analysts working in R (the ones that get data from Looker) but eventually the goal is to add support for every endpoint in the Looker API.
