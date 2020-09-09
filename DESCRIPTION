@@ -1,5 +1,5 @@
 Package: lookr
-Version: 1.0.1
+Version: 1.0.2
 Date: 2018-04-27
 Title: LookR
 Authors@R: c(person("Maxie", "Corbin", role = c("aut", "cre"), email = "maxie@looker.com"))
@@ -10,4 +10,5 @@ Description: Software Development Kit for connecting to Looker and making reques
 URL: https://github.com/looker/lookr
 BugReports: https://github.com/looker/lookr/issues
 Suggests: testthat, httpuv
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.1
+Repository: miniCRAN

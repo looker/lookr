@@ -28,6 +28,7 @@ sdk$logout()
   \item{login}{If \code{TRUE}, get an access token upon object creation.}
   \item{settings}{Optional, directly supply an \code{ApiSettings} object.}
   \item{userSession}{Optional, directly supply a \code{UserSession} object.}
+  \item{userSession}{Optional, directly supply a \code{UserSession} object.}
 }
 }
 

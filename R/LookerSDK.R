@@ -388,7 +388,7 @@ LookerSDK <- R6::R6Class(
                      "/queries/run/", resultFormat),
         body = as.character(body),
         queryParams = NULL,
-        headerParams = NULL,
+        headerParams = c("Accept"="application/json", "Content-Type"="application/json"),
         method = "POST",
         config = self$oauthHeader
       )
