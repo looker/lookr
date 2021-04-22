@@ -188,7 +188,7 @@ UserSession <- R6::R6Class(
         endpoint = httr::oauth_endpoint(
           authorize = NULL,
           access = paste0(
-            self$settings$basePath, "/login")),
+            self$settings$basePath, "/api/", self$settings$apiVersion, "/login")),
         app = httr::oauth_app(
           appname = "lookr",
           key = self$settings$clientId,
